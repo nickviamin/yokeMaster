@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89DAF50F286FECFF007F4F5E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF50E286FECFF007F4F5E /* Tests_iOS.swift */; };
+		89DAF511286FECFF007F4F5E /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF510286FECFF007F4F5E /* Tests_iOSLaunchTests.swift */; };
+		89DAF51B286FECFF007F4F5E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF51A286FECFF007F4F5E /* Tests_macOS.swift */; };
+		89DAF51D286FECFF007F4F5E /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF51C286FECFF007F4F5E /* Tests_macOSLaunchTests.swift */; };
+		89DAF51E286FECFF007F4F5E /* yokeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF4F6286FECFE007F4F5E /* yokeMasterApp.swift */; };
+		89DAF51F286FECFF007F4F5E /* yokeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF4F6286FECFE007F4F5E /* yokeMasterApp.swift */; };
+		89DAF520286FECFF007F4F5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF4F7286FECFE007F4F5E /* ContentView.swift */; };
+		89DAF521286FECFF007F4F5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF4F7286FECFE007F4F5E /* ContentView.swift */; };
+		89DAF522286FECFF007F4F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DAF4F8286FECFF007F4F5E /* Assets.xcassets */; };
+		89DAF523286FECFF007F4F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DAF4F8286FECFF007F4F5E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89DAF50B286FECFF007F4F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DAF4F1286FECFE007F4F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DAF4FC286FECFF007F4F5E;
+			remoteInfo = "yokeMaster (iOS)";
+		};
+		89DAF517286FECFF007F4F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DAF4F1286FECFE007F4F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DAF502286FECFF007F4F5E;
+			remoteInfo = "yokeMaster (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89DAF4F6286FECFE007F4F5E /* yokeMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yokeMasterApp.swift; sourceTree = "<group>"; };
+		89DAF4F7286FECFE007F4F5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89DAF4F8286FECFF007F4F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89DAF4FD286FECFF007F4F5E /* yokeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yokeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DAF503286FECFF007F4F5E /* yokeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yokeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DAF505286FECFF007F4F5E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		89DAF50A286FECFF007F4F5E /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DAF50E286FECFF007F4F5E /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		89DAF510286FECFF007F4F5E /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		89DAF516286FECFF007F4F5E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DAF51A286FECFF007F4F5E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		89DAF51C286FECFF007F4F5E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DAF4FA286FECFF007F4F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DAF500286FECFF007F4F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DAF507286FECFF007F4F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DAF513286FECFF007F4F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DAF4F0286FECFE007F4F5E = {
+			isa = PBXGroup;
+			children = (
+				89DAF4F5286FECFE007F4F5E /* Shared */,
+				89DAF504286FECFF007F4F5E /* macOS */,
+				89DAF50D286FECFF007F4F5E /* Tests iOS */,
+				89DAF519286FECFF007F4F5E /* Tests macOS */,
+				89DAF4FE286FECFF007F4F5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89DAF4F5286FECFE007F4F5E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				89DAF4F6286FECFE007F4F5E /* yokeMasterApp.swift */,
+				89DAF4F7286FECFE007F4F5E /* ContentView.swift */,
+				89DAF4F8286FECFF007F4F5E /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		89DAF4FE286FECFF007F4F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DAF4FD286FECFF007F4F5E /* yokeMaster.app */,
+				89DAF503286FECFF007F4F5E /* yokeMaster.app */,
+				89DAF50A286FECFF007F4F5E /* Tests iOS.xctest */,
+				89DAF516286FECFF007F4F5E /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DAF504286FECFF007F4F5E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				89DAF505286FECFF007F4F5E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		89DAF50D286FECFF007F4F5E /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				89DAF50E286FECFF007F4F5E /* Tests_iOS.swift */,
+				89DAF510286FECFF007F4F5E /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		89DAF519286FECFF007F4F5E /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				89DAF51A286FECFF007F4F5E /* Tests_macOS.swift */,
+				89DAF51C286FECFF007F4F5E /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DAF4FC286FECFF007F4F5E /* yokeMaster (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DAF526286FECFF007F4F5E /* Build configuration list for PBXNativeTarget "yokeMaster (iOS)" */;
+			buildPhases = (
+				89DAF4F9286FECFF007F4F5E /* Sources */,
+				89DAF4FA286FECFF007F4F5E /* Frameworks */,
+				89DAF4FB286FECFF007F4F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yokeMaster (iOS)";
+			productName = "yokeMaster (iOS)";
+			productReference = 89DAF4FD286FECFF007F4F5E /* yokeMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89DAF502286FECFF007F4F5E /* yokeMaster (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DAF529286FECFF007F4F5E /* Build configuration list for PBXNativeTarget "yokeMaster (macOS)" */;
+			buildPhases = (
+				89DAF4FF286FECFF007F4F5E /* Sources */,
+				89DAF500286FECFF007F4F5E /* Frameworks */,
+				89DAF501286FECFF007F4F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yokeMaster (macOS)";
+			productName = "yokeMaster (macOS)";
+			productReference = 89DAF503286FECFF007F4F5E /* yokeMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89DAF509286FECFF007F4F5E /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DAF52C286FECFF007F4F5E /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				89DAF506286FECFF007F4F5E /* Sources */,
+				89DAF507286FECFF007F4F5E /* Frameworks */,
+				89DAF508286FECFF007F4F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DAF50C286FECFF007F4F5E /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 89DAF50A286FECFF007F4F5E /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		89DAF515286FECFF007F4F5E /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DAF52F286FECFF007F4F5E /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				89DAF512286FECFF007F4F5E /* Sources */,
+				89DAF513286FECFF007F4F5E /* Frameworks */,
+				89DAF514286FECFF007F4F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DAF518286FECFF007F4F5E /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 89DAF516286FECFF007F4F5E /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DAF4F1286FECFE007F4F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					89DAF4FC286FECFF007F4F5E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					89DAF502286FECFF007F4F5E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					89DAF509286FECFF007F4F5E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 89DAF4FC286FECFF007F4F5E;
+					};
+					89DAF515286FECFF007F4F5E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 89DAF502286FECFF007F4F5E;
+					};
+				};
+			};
+			buildConfigurationList = 89DAF4F4286FECFE007F4F5E /* Build configuration list for PBXProject "yokeMaster" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89DAF4F0286FECFE007F4F5E;
+			productRefGroup = 89DAF4FE286FECFF007F4F5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DAF4FC286FECFF007F4F5E /* yokeMaster (iOS) */,
+				89DAF502286FECFF007F4F5E /* yokeMaster (macOS) */,
+				89DAF509286FECFF007F4F5E /* Tests iOS */,
+				89DAF515286FECFF007F4F5E /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89DAF4FB286FECFF007F4F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DAF522286FECFF007F4F5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DAF501286FECFF007F4F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DAF523286FECFF007F4F5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DAF508286FECFF007F4F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DAF514286FECFF007F4F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DAF4F9286FECFF007F4F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DAF520286FECFF007F4F5E /* ContentView.swift in Sources */,
+				89DAF51E286FECFF007F4F5E /* yokeMasterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DAF4FF286FECFF007F4F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DAF521286FECFF007F4F5E /* ContentView.swift in Sources */,
+				89DAF51F286FECFF007F4F5E /* yokeMasterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DAF506286FECFF007F4F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DAF511286FECFF007F4F5E /* Tests_iOSLaunchTests.swift in Sources */,
+				89DAF50F286FECFF007F4F5E /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DAF512286FECFF007F4F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DAF51D286FECFF007F4F5E /* Tests_macOSLaunchTests.swift in Sources */,
+				89DAF51B286FECFF007F4F5E /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89DAF50C286FECFF007F4F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DAF4FC286FECFF007F4F5E /* yokeMaster (iOS) */;
+			targetProxy = 89DAF50B286FECFF007F4F5E /* PBXContainerItemProxy */;
+		};
+		89DAF518286FECFF007F4F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DAF502286FECFF007F4F5E /* yokeMaster (macOS) */;
+			targetProxy = 89DAF517286FECFF007F4F5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89DAF524286FECFF007F4F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89DAF525286FECFF007F4F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		89DAF527286FECFF007F4F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.yokeMaster;
+				PRODUCT_NAME = yokeMaster;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89DAF528286FECFF007F4F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.yokeMaster;
+				PRODUCT_NAME = yokeMaster;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89DAF52A286FECFF007F4F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.yokeMaster;
+				PRODUCT_NAME = yokeMaster;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		89DAF52B286FECFF007F4F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.yokeMaster;
+				PRODUCT_NAME = yokeMaster;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		89DAF52D286FECFF007F4F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nick.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "yokeMaster (iOS)";
+			};
+			name = Debug;
+		};
+		89DAF52E286FECFF007F4F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nick.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "yokeMaster (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89DAF530286FECFF007F4F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nick.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "yokeMaster (macOS)";
+			};
+			name = Debug;
+		};
+		89DAF531286FECFF007F4F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nick.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "yokeMaster (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DAF4F4286FECFE007F4F5E /* Build configuration list for PBXProject "yokeMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DAF524286FECFF007F4F5E /* Debug */,
+				89DAF525286FECFF007F4F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DAF526286FECFF007F4F5E /* Build configuration list for PBXNativeTarget "yokeMaster (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DAF527286FECFF007F4F5E /* Debug */,
+				89DAF528286FECFF007F4F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DAF529286FECFF007F4F5E /* Build configuration list for PBXNativeTarget "yokeMaster (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DAF52A286FECFF007F4F5E /* Debug */,
+				89DAF52B286FECFF007F4F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DAF52C286FECFF007F4F5E /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DAF52D286FECFF007F4F5E /* Debug */,
+				89DAF52E286FECFF007F4F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DAF52F286FECFF007F4F5E /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DAF530286FECFF007F4F5E /* Debug */,
+				89DAF531286FECFF007F4F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89DAF4F1286FECFE007F4F5E /* Project object */;
+}
