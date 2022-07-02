@@ -62,6 +62,7 @@
 		89DAF5AE286FF489007F4F5E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 89DAF5AD286FF489007F4F5E /* FirebaseFirestoreSwift */; };
 		89DAF5B0286FF489007F4F5E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 89DAF5AF286FF489007F4F5E /* FirebaseStorage */; };
 		89DAF5B3286FF4AB007F4F5E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 89DAF5B2286FF4AB007F4F5E /* Kingfisher */; };
+		89E801402870B78F00C0EC4A /* BusinessRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8013F2870B78F00C0EC4A /* BusinessRegistrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,7 @@
 		89DAF5A1286FF3D4007F4F5E /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		89DAF5A4286FF3EF007F4F5E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		89DAF5A6286FF461007F4F5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		89E8013F2870B78F00C0EC4A /* BusinessRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRegistrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +279,7 @@
 				89DAF538286FEEA1007F4F5E /* LogInView.swift */,
 				89DAF53A286FEEC0007F4F5E /* ProfilePhotoSelectorView.swift */,
 				89DAF53C286FEED8007F4F5E /* RegistrationView.swift */,
+				89E8013F2870B78F00C0EC4A /* BusinessRegistrationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -742,6 +745,7 @@
 				89DAF588286FF2C4007F4F5E /* SideMenuOptionRowView.swift in Sources */,
 				89DAF56B286FF17D007F4F5E /* FeedView.swift in Sources */,
 				89DAF57D286FF241007F4F5E /* ProfileViewModel.swift in Sources */,
+				89E801402870B78F00C0EC4A /* BusinessRegistrationView.swift in Sources */,
 				89DAF54F286FEFDB007F4F5E /* MapView.swift in Sources */,
 				89DAF51E286FECFF007F4F5E /* yokeMasterApp.swift in Sources */,
 				89DAF548286FEF8D007F4F5E /* ClassStackView.swift in Sources */,

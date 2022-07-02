@@ -26,6 +26,7 @@ struct PostService {
                 }
                 completion(true)
             }
+        
     }
     
     func fetchPosts(completion: @escaping([Post]) -> Void) {

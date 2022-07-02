@@ -15,7 +15,7 @@ struct LogInView: View {
     
     var body: some View {
         VStack {
-            AuthHeaderView(title1: "Hello!", title2: "Welcome Back")
+            AuthHeaderView(title1: "Hello!", title2: "Welcome to Yoke")
             
             VStack(spacing: 40) {
                 CustomInputField(imageName: "envelope", placeholderText: "Email", text: $email)
@@ -68,6 +68,19 @@ struct LogInView: View {
             .shadow(color: .gray.opacity(0.5), radius: 10, x: 0, y: 0)
             
             Spacer()
+            
+            NavigationLink {
+                BusinessRegistrationView()
+                    .navigationBarHidden(true)
+            } label: {
+                HStack {
+                    Text("Want to add your business to Yoke?")
+                        .font(.footnote)
+                    Text("Sign Up")
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                }
+            }
             
             NavigationLink {
                 RegistrationView()
