@@ -19,6 +19,8 @@ struct BusinessRegistrationView: View {
     
     var body: some View {
         VStack {
+            NavigationLink(destination: BusinessView(), isActive: $viewModel.didAuthenticateUser, label: { })
+            
             AuthHeaderView(title1: "Get Started", title2: "Create Your Yoke Business Account")
             VStack(spacing: 40) {
                 

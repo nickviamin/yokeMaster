@@ -63,6 +63,7 @@
 		89DAF5B0286FF489007F4F5E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 89DAF5AF286FF489007F4F5E /* FirebaseStorage */; };
 		89DAF5B3286FF4AB007F4F5E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 89DAF5B2286FF4AB007F4F5E /* Kingfisher */; };
 		89E801402870B78F00C0EC4A /* BusinessRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E8013F2870B78F00C0EC4A /* BusinessRegistrationView.swift */; };
+		89E801452870BCBA00C0EC4A /* BusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E801442870BCBA00C0EC4A /* BusinessView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,7 @@
 		89DAF5A4286FF3EF007F4F5E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		89DAF5A6286FF461007F4F5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89E8013F2870B78F00C0EC4A /* BusinessRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRegistrationView.swift; sourceTree = "<group>"; };
+		89E801442870BCBA00C0EC4A /* BusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,7 @@
 		89DAF532286FEE15007F4F5E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				89E801412870BCA000C0EC4A /* BusinessView */,
 				89DAF589286FF2D8007F4F5E /* UploadPost */,
 				89DAF580286FF265007F4F5E /* SideMenu */,
 				89DAF577286FF216007F4F5E /* Profile */,
@@ -562,6 +565,30 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		89E801412870BCA000C0EC4A /* BusinessView */ = {
+			isa = PBXGroup;
+			children = (
+				89E801432870BCAD00C0EC4A /* ViewModel */,
+				89E801422870BCA800C0EC4A /* Views */,
+			);
+			path = BusinessView;
+			sourceTree = "<group>";
+		};
+		89E801422870BCA800C0EC4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89E801442870BCBA00C0EC4A /* BusinessView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89E801432870BCAD00C0EC4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -737,6 +764,7 @@
 				89DAF554286FF031007F4F5E /* SearchBar.swift in Sources */,
 				89DAF556286FF04A007F4F5E /* TextArea.swift in Sources */,
 				89DAF543286FEF4F007F4F5E /* CustomInputField.swift in Sources */,
+				89E801452870BCBA00C0EC4A /* BusinessView.swift in Sources */,
 				89DAF54D286FEFC7007F4F5E /* MapViewModel.swift in Sources */,
 				89DAF56E286FF1AB007F4F5E /* MainTabView.swift in Sources */,
 				89DAF520286FECFF007F4F5E /* ContentView.swift in Sources */,
