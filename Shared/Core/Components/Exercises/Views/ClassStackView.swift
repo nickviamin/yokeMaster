@@ -33,47 +33,13 @@ struct ClassStackView: View {
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.pink)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Yoga")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("yogapic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "yogapic", name: "Yoga", color: .systemPink)
                         }
                         
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.purple)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Cycling")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("cyclingpic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "cyclingpic", name: "Cycling", color: .systemPurple)
                         }
                     }
                     
@@ -87,47 +53,13 @@ struct ClassStackView: View {
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.blue)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Boxing")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("boxingpic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "boxingpic", name: "Boxing", color: .systemBlue)
                         }
                         
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack (alignment: .bottomTrailing){
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.red)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("HIIT")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("hiitpic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "hiitpic", name: "HIIT", color: .systemRed)
                         }
                     }
                     
@@ -141,281 +73,77 @@ struct ClassStackView: View {
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack (alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.orange)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Pilates")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("pilates pic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "pilates pic", name: "Pilates", color: .systemOrange)
                         }
                         
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.cyan)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Dance")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("dancingpic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "dancingpic", name: "Dance", color: .systemCyan)
                         }
                     }
                     HStack {
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing){
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.indigo)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Massage")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("massagepic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "massagepic", name: "Massage", color: .systemIndigo)
                         }
                         
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.mint)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Facial")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("facialpic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "facialpic", name: "Facial", color: .systemMint)
                         }
                     }
                     HStack {
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing){
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.yellow)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Bootcamp")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("bootcamppic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "bootcamppic", name: "Boot Camp", color: .systemYellow)
                         }
                         
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.gray)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Gym Time")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("gympic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "gympic", name: "Gym", color: .systemGray)
                         }
                     }
                     HStack {
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.orange)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Nails")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("nailspic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "nailspic", name: "Nails", color: .systemOrange)
                         }
                         
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.purple)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Sauna")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("saunapic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "saunapic", name: "Sauna", color: .systemPurple)
                         }
                     }
                     HStack {
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.pink)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Cryotherapy")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("cryopic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "cryopic", name: "Cryotherapy", color: .systemPink)
                         }
                         
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing){
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.blue)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Running")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("runningpic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "runningpic", name: "Running", color: .systemBlue)
                         }
                     }
                     HStack {
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.red)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Outdoors")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("outdoorspic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "outdoorspic", name: "Outdoors", color: .systemRed)
                         }
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.cyan)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Rowing")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("rowingpic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "rowingpic", name: "Rowing", color: .systemCyan)
 
                         }
                     }
@@ -423,94 +151,26 @@ struct ClassStackView: View {
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.indigo)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Kickball")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("kickballpic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "kickballpic", name: "Kickball", color: .systemIndigo)
                         }
                         
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.orange)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Spa Treatment")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("spapic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "spapic", name: "Spa Treatment", color: .systemOrange)
                         }
                     }
                     HStack {
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.blue)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Martial Arts")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("karatepic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "karatepic", name: "Martial Arts", color: .systemBlue)
                         }
                         
                         Button {
                             showMapView.toggle()
                         } label: {
-                            ZStack(alignment: .bottomTrailing) {
-                                ZStack(alignment: .topLeading){
-                                    Rectangle()
-                                        .fill(Color.yellow)
-                                        .frame(width:180, height: 90)
-                                        .cornerRadius(10)
-                                    Text("Meditation")
-                                        .bold()
-                                        .foregroundColor(.white)
-                                        .padding()
-                                }
-                                Image("meditationpic")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 56, height: 56)
-                                    .clipped()
-                                    .cornerRadius(10)
-                            }
+                            CustomClassView(imageName: "meditationpic", name: "Meditation", color: .systemYellow)
                         }
                     }
                 }
