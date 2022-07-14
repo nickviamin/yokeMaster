@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89A7AC6228765F8A0004BBAE /* CustomClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A7AC6128765F8A0004BBAE /* CustomClassView.swift */; };
+		89A7AC66287F8FBA0004BBAE /* MessagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A7AC65287F8FBA0004BBAE /* MessagesViewModel.swift */; };
+		89A7AC68287F8FE30004BBAE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A7AC67287F8FE30004BBAE /* Message.swift */; };
 		89C3FA8E2870A2620088998D /* PostFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FA8D2870A2620088998D /* PostFilterViewModel.swift */; };
 		89C3FA902870A2AA0088998D /* LandmarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3FA8F2870A2AA0088998D /* LandmarkAnnotation.swift */; };
 		89DAF50F286FECFF007F4F5E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF50E286FECFF007F4F5E /* Tests_iOS.swift */; };
@@ -86,6 +88,8 @@
 
 /* Begin PBXFileReference section */
 		89A7AC6128765F8A0004BBAE /* CustomClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClassView.swift; sourceTree = "<group>"; };
+		89A7AC65287F8FBA0004BBAE /* MessagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewModel.swift; sourceTree = "<group>"; };
+		89A7AC67287F8FE30004BBAE /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		89C3FA8D2870A2620088998D /* PostFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFilterViewModel.swift; sourceTree = "<group>"; };
 		89C3FA8F2870A2AA0088998D /* LandmarkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkAnnotation.swift; sourceTree = "<group>"; };
 		89DAF4F6286FECFE007F4F5E /* yokeMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yokeMasterApp.swift; sourceTree = "<group>"; };
@@ -179,6 +183,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89A7AC63287F8F920004BBAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89DAF572286FF1DB007F4F5E /* MessagesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89A7AC64287F8FA00004BBAE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				89A7AC65287F8FBA0004BBAE /* MessagesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		89DAF4F0286FECFE007F4F5E = {
 			isa = PBXGroup;
 			children = (
@@ -441,7 +461,8 @@
 		89DAF56F286FF1BE007F4F5E /* Messages */ = {
 			isa = PBXGroup;
 			children = (
-				89DAF572286FF1DB007F4F5E /* MessagesView.swift */,
+				89A7AC64287F8FA00004BBAE /* ViewModels */,
+				89A7AC63287F8F920004BBAE /* Views */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -545,6 +566,7 @@
 				89DAF596286FF36F007F4F5E /* Post.swift */,
 				89DAF598286FF37C007F4F5E /* User.swift */,
 				89C3FA8F2870A2AA0088998D /* LandmarkAnnotation.swift */,
+				89A7AC67287F8FE30004BBAE /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -779,6 +801,7 @@
 				89DAF57D286FF241007F4F5E /* ProfileViewModel.swift in Sources */,
 				89E801402870B78F00C0EC4A /* BusinessRegistrationView.swift in Sources */,
 				89DAF54F286FEFDB007F4F5E /* MapView.swift in Sources */,
+				89A7AC68287F8FE30004BBAE /* Message.swift in Sources */,
 				89DAF51E286FECFF007F4F5E /* yokeMasterApp.swift in Sources */,
 				89DAF548286FEF8D007F4F5E /* ClassStackView.swift in Sources */,
 				89DAF5A5286FF3EF007F4F5E /* ImagePicker.swift in Sources */,
@@ -789,6 +812,7 @@
 				89DAF55D286FF0BD007F4F5E /* UserStatView.swift in Sources */,
 				89DAF539286FEEA1007F4F5E /* LogInView.swift in Sources */,
 				89DAF53D286FEED8007F4F5E /* RegistrationView.swift in Sources */,
+				89A7AC66287F8FBA0004BBAE /* MessagesViewModel.swift in Sources */,
 				89DAF537286FEE87007F4F5E /* AuthViewModel.swift in Sources */,
 				89DAF53B286FEEC0007F4F5E /* ProfilePhotoSelectorView.swift in Sources */,
 				89DAF593286FF34E007F4F5E /* Landmark.swift in Sources */,
